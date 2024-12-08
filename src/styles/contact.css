@@ -1,0 +1,84 @@
+.contact {
+    padding: 60px 20px;
+    background-color: #2F4F4F; /* Deep slate gray for a professional tone */
+    color: white;
+    text-align: center;
+    border-top: 5px solid #FFD700; /* Subtle gold accent for consistency */
+  }
+  
+  .contact h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #FFD700; /* Gold for the title */
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly translucent background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Light border for inputs */
+    font-size: 16px;
+    background-color: #ffffff; /* White background for input fields */
+    color: #333; /* Dark text for readability */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #FFD700; /* Gold highlight when focused */
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.3); /* Soft gold glow */
+  }
+  
+  .contact-form button {
+    align-self: center;
+    width: 50%;
+    background-color: #FFD700; /* Gold button */
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #FF6347; /* Tomato red on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
+  }
+  
+  .contact-form button:active {
+    transform: translateY(1px); /* Button pushes down when clicked */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .contact-form {
+      width: 90%;
+      padding: 25px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 14px;
+    }
+  
+    .contact-form button {
+      width: 60%;
+    }
+  }
+  

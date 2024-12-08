@@ -1,0 +1,12 @@
+/* Footer Styles */
+footer {
+    background-color: #333;  /* Dark background for footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,67 @@
+/* global.css */
+
+/* Global Scroll Fade-In Animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Smooth Scroll for Anchor Links */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Button Hover Effect */
+  .cta-btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #FF4500; /* Darker red */
+    transform: scale(1.05);
+  }
+  
+  /* Card Hover Effect */
+  .feature-card, .pricing-card, .testimonial-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature-card:hover, .pricing-card:hover, .testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hero Section Text Animation */
+  .hero h1, .hero p {
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  
+  .hero h1.visible, .hero p.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Progress Bar Styles */
+  .progress-bar {
+    position: relative;
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 20px;
+    margin: 20px 0;
+  }
+  
+  .progress-bar .fill {
+    background-color: #FF6347;
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    transition: width 1s ease;
+  }
+  

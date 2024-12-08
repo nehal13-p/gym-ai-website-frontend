@@ -1,0 +1,32 @@
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2F4F4F; /* Dark Slate Gray */
+    color: white;
+  }
+  
+  header .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none; /* Removes the bullet points from the list */
+    padding-left: 0; /* Removes any padding from the left of the list */
+  }
+  
+  header nav a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  header nav a:hover {
+    text-decoration: none; /* Ensures no underline on hover */
+  }
+  

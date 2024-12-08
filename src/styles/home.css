@@ -1,0 +1,17 @@
+.home-container {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f7f7f7; /* Light background to contrast with text */
+    color: #333; /* Dark text color for good contrast */
+  }
+  
+  .home-container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2F4F4F; /* Dark Slate Gray for heading */
+  }
+  
+  .home-container p {
+    font-size: 20px;
+    color: #555; /* Slightly lighter text color for paragraph */
+  }
