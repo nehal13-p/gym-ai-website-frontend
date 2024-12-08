@@ -37,7 +37,7 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   
-  /* Hero Section Text Animation */
+  /* Hero Section Text Animation
   .hero h1, .hero p {
     transform: translateY(30px);
     transition: opacity 0.8s ease, transform 0.8s ease;
@@ -46,7 +46,7 @@
   .hero h1.visible, .hero p.visible {
     opacity: 1;
     transform: translateY(0);
-  }
+  } */
   
   /* Progress Bar Styles */
   .progress-bar {
