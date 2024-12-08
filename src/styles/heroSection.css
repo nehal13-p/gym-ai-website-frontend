@@ -29,14 +29,14 @@
   
   .hero h1 {
     font-size: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 250px;
     color: #ffffff; /* Ensure h1 has white color */
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* More pronounced text shadow for better readability */
   }
   
   .hero p {
     font-size: 20px;
-    margin-bottom: -250px;
+    margin-bottom: -200px;
     color: #ffffff; /* Ensure paragraph text has white color */
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Text shadow for visibility */
   }

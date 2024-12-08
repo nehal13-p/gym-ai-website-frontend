@@ -1,5 +1,5 @@
-// Pricing.js
 import React from 'react';
+import '../styles/pricing.css'; // Ensure the CSS file is linked
 
 function Pricing() {
   return (
@@ -8,30 +8,46 @@ function Pricing() {
       <div className="pricing-cards">
         <div className="pricing-card">
           <h3>Basic</h3>
-          <p className="price">$9.99/month</p>
-          <ul>
-            <li>Basic Features</li>
-            <li>Personalized Coaching</li>
+          <p className="price">$9.99<span>/month</span></p>
+          <ul className="features">
+            <li>
+              <i></i> Basic Features
+            </li>
+            <li>
+              <i></i> Personalized Coaching
+            </li>
           </ul>
           <button className="cta-btn">Get Started</button>
         </div>
         <div className="pricing-card">
           <h3>Pro</h3>
-          <p className="price">$19.99/month</p>
-          <ul>
-            <li>Advanced Features</li>
-            <li>Progress Tracking</li>
-            <li>AI Coaching</li>
+          <p className="price">$19.99<span>/month</span></p>
+          <ul className="features">
+            <li>
+              <i></i> Advanced Features
+            </li>
+            <li>
+              <i></i> Progress Tracking
+            </li>
+            <li>
+              <i></i> AI Coaching
+            </li>
           </ul>
           <button className="cta-btn">Get Started</button>
         </div>
         <div className="pricing-card">
           <h3>Premium</h3>
-          <p className="price">$29.99/month</p>
-          <ul>
-            <li>All Features</li>
-            <li>Custom Coaching</li>
-            <li>Priority Support</li>
+          <p className="price">$29.99<span>/month</span></p>
+          <ul className="features">
+            <li>
+              <i></i> All Features
+            </li>
+            <li>
+              <i></i> Custom Coaching
+            </li>
+            <li>
+              <i></i> Priority Support
+            </li>
           </ul>
           <button className="cta-btn">Get Started</button>
         </div>

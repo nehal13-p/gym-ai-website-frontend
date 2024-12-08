@@ -1,32 +1,60 @@
 /* Header Styles */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #2F4F4F; /* Dark Slate Gray */
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #2F4F4F; /* Dark Slate Gray */
+  color: white;
+}
+
+/* Logo Styling */
+header .logo {
+  font-size: 30px;
+  font-weight: bold;
+  white-space: nowrap; /* Prevents the logo text from wrapping */
+  margin-right: auto; /* Ensures the logo stays on the left */
+}
+
+/* Navigation Bar */
+header nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none; /* Removes the bullet points from the list */
+  padding-left: 0; /* Removes any padding from the left of the list */
+  margin: 0;
+}
+
+header nav a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none; /* Removes underline from links */
+}
+
+header nav a:hover {
+  text-decoration: none; /* Ensures no underline on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header {
+      flex-wrap: wrap; /* Allows elements to wrap on smaller screens */
+      padding: 10px;
   }
-  
+
   header .logo {
-    font-size: 30px;
-    font-weight: bold;
+      font-size: 24px;
+      margin: 0; /* Ensures the logo remains in the top-left corner */
   }
-  
+
   header nav ul {
-    display: flex;
-    gap: 20px;
-    list-style-type: none; /* Removes the bullet points from the list */
-    padding-left: 0; /* Removes any padding from the left of the list */
+      flex-direction: column; /* Stacks navigation links vertically */
+      align-items: center; /* Centers navigation links */
+      gap: 15px;
+      width: 100%; /* Ensures links span the width of the container */
   }
-  
+
   header nav a {
-    color: white;
-    font-size: 18px;
-    text-decoration: none; /* Removes underline from links */
+      font-size: 16px; /* Adjust font size for better readability */
   }
-  
-  header nav a:hover {
-    text-decoration: none; /* Ensures no underline on hover */
-  }
-  
+}

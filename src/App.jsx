@@ -12,6 +12,7 @@ import './styles/heroSection.css';
 import './styles/features.css';
 import './styles/testimonials.css';
 import './styles/pricing.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (

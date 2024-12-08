@@ -64,6 +64,10 @@
   .contact-form button:active {
     transform: translateY(1px); /* Button pushes down when clicked */
   }
+
+  .contact {
+    margin-bottom: 40px;
+  }
   
   /* Responsive styles */
   @media (max-width: 768px) {
