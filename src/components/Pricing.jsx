@@ -8,7 +8,7 @@ function Pricing() {
       <div className="pricing-cards">
         <div className="pricing-card">
           <h3>Basic</h3>
-          <p className="price">$9.99<span>/month</span></p>
+          <p className="price">₹9.99<span>/month</span></p>
           <ul className="features">
             <li>
               <i></i> Basic Features
@@ -21,7 +21,7 @@ function Pricing() {
         </div>
         <div className="pricing-card">
           <h3>Pro</h3>
-          <p className="price">$19.99<span>/month</span></p>
+          <p className="price">₹19.99<span>/month</span></p>
           <ul className="features">
             <li>
               <i></i> Advanced Features
@@ -37,7 +37,7 @@ function Pricing() {
         </div>
         <div className="pricing-card">
           <h3>Premium</h3>
-          <p className="price">$29.99<span>/month</span></p>
+          <p className="price">₹29.99<span>/month</span></p>
           <ul className="features">
             <li>
               <i></i> All Features
